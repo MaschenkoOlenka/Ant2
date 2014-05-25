@@ -11,7 +11,7 @@
 	</target>
 	
 	<target name="compress" depends="compile">
-	        <jar destfile="dist/HelloWorld.jar" basedir="build/classes" />
+	        <jar destfile="dist/ant_test.jar" basedir="build/classes" />
 	</target>
 	
 	<target name="execute" depends="compile">
